@@ -19,7 +19,7 @@ public class AssertDemo {
 		softAssort.assertEquals(false, true, "transfer page title is invalid");
 		System.out.println("SoftAssert 2");
 		softAssort.assertEquals(false, true, "card page title is invalid");
-		System.out.println("SoftAssert 3");
+		System.out.println("SoftAssert 3 ");
 		
 		softAssort.assertAll();
 		
