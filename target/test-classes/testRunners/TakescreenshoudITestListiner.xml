@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Retry Suite" verbose="3">
+
+	<listeners> 
+	<listener class-name="com.test.util.TransformRetry"/>
+	</listeners>
+	
+	<test name="ReExecute Failed Cases">
+	<classes>
+		<class name="TestNGTest.RetryTranformer"/>
+	</classes>
+</test>
+</suite>
