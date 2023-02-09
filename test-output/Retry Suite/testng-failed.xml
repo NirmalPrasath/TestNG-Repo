@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Retry Suite]">
+  <listeners>
+    <listener class-name="com.test.util.TransformRetry"/>
+  </listeners>
+  <test name="ReExecute Failed Cases">
+    <classes>
+      <class name="TestNGTest.RetryTranformer"/>
+    </classes>
+  </test> <!-- ReExecute Failed Cases -->
+  <test name="ReExecute Failed Cases(failed)">
+    <classes>
+      <class name="TestNGTest.RetryTranformer">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- TestNGTest.RetryTranformer -->
+    </classes>
+  </test> <!-- ReExecute Failed Cases(failed) -->
+</suite> <!-- Failed suite [Retry Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Regression Suite]">
+  <test name="GroupsDemo">
+    <classes>
+      <class name="GroupMethodClass.Test3">
+        <methods>
+          <exclude name="c3"/>
+        </methods>
+      </class> <!-- GroupMethodClass.Test3 -->
+    </classes>
+  </test> <!-- GroupsDemo -->
+</suite> <!-- Failed suite [Regression Suite] -->

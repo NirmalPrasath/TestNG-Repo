@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="methods">
+
+
+<test name="Test1">
+
+	<classes>
+		<class name="GroupMethodClass.Test1"/>
+		<class name="GroupMethodClass.Test4"/>
+		
+	</classes>
+</test>
+
+
+<test name="Test2">
+
+	<classes>
+		<class name="GroupMethodClass.Test2"/>
+	</classes>
+</test>
+
+<test name="Test3">
+
+	<classes>
+		<class name="GroupMethodClass.Test3"/>
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="3">
+
+<test name="DataProviderDemo1">
+	<parameter name="url" value="https://app.hubspot.com/login"/>
+	<classes>
+		<class name="TestNGTest.DataProviderDemo"/>
+	</classes>
+</test>
+</suite>
